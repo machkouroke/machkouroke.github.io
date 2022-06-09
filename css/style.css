@@ -10928,6 +10928,12 @@ section.resume-section .resume-section-content {
   transform: scale(1.1);
 }
 
+.project {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
 @media only screen and (max-width: 480px) {
   .progress .progress-title {
     font-size: 12px;
