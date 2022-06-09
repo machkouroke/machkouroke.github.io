@@ -111,6 +111,17 @@
   color: black;
 
 }
+.resume-section-content {
+  h1 {
+
+  }
+}
+.subheading {
+  text-transform: capitalize;
+  a {
+    text-transform: lowercase;
+  }
+}
 @media only screen and (max-width: 480px) {
   .progress .progress-title {
     font-size: 12px;
