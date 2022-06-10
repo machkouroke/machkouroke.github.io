@@ -1,5 +1,4 @@
-
-window.addEventListener('DOMContentLoaded', event => {
+window.addEventListener('DOMContentLoaded', () => {
 
     // Activate Bootstrap scrollspy on the main nav element
     const sideNav = document.body.querySelector('#sideNav');
@@ -24,3 +23,27 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function startAnimation(entries, observer) {
+
+    entries.forEach((entry) => {
+        console.log(entry)
+        let plot = document.querySelectorAll('.progress-bar div');
+        if (entry.isIntersecting) {
+
+            for (let element of plot) {
+                element.classList.add('progress-value')
+            }
+        }
+
+    });
+}
+
+let options = {
+    root: null,
+    rootMargin: '10px',
+    threshold: 0.3
+}
+
+let observer = new IntersectionObserver(startAnimation, options);
+observer.observe(document.getElementById("competences"))
