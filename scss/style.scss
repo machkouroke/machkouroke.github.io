@@ -122,6 +122,13 @@
     text-transform: lowercase;
   }
 }
+.container {
+  .row {
+    .col-4 {
+      @extend .d-flex, .flex-column, .align-items-center;
+    }
+  }
+}
 @media only screen and (max-width: 480px) {
   .progress .progress-title {
     font-size: 12px;
