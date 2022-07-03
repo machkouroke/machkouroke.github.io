@@ -1,117 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-		<meta name="description" content=""/>
-		<meta name="author" content=""/>
-		<title>Machkour Oke</title>
-		<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
-		<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
 		
-		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-		      type="text/css"/>
-		<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css"/>
-		<link href="css/style.css" rel="stylesheet"/>
+		<title>Machkour Oke</title>
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<link rel="stylesheet" href="css/unicons.css">
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		
+		<!-- MAIN STYLE -->
+		<link rel="stylesheet" href="css/tooplate-style.css">
+	
 	</head>
-	<body id="page-top">
-		<!-- Navigation-->
-		<nav class="navbar navbar-expand-lg navbar-dark  bg-primary  fixed-top  shadow" id="sideNav">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top">
-				<span class="d-block d-lg-none">Machkour Oke</span>
-				<span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-				                                     src="assets/img/profile.jpg" alt="..."/></span>
-			</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-			        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-					class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">A propos de moi</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#project">Projet Réalisé</a></li>
+	<body>
+		
+		<!-- MENU -->
+		<nav class="navbar navbar-expand-sm navbar-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Machkour</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				        aria-controls="navbarNav" aria-expanded="false"
+				        aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a href="#about" class="nav-link"><span data-hover="About">A propos de moi</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="#project" class="nav-link"><span data-hover="Projects">Mes Projets</span></a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link"><span data-hover="Contact">Contacte moi</span></a>
+						</li>
+					</ul>
 					
-				</ul>
+					<ul class="navbar-nav ml-lg-auto">
+						<div class="ml-lg-4">
+							<div class="color-mode d-lg-flex justify-content-center align-items-center">
+								<i class="color-mode-icon"></i>
+								Color mode
+							</div>
+						</div>
+					</ul>
+				</div>
 			</div>
 		</nav>
-		<!-- Page Content-->
-		<div class="container-fluid p-0">
-			<!-- About-->
-			<section class="resume-section" id="about">
-				<div class="resume-section-content">
-					<h1 class="mb-0">
-						Machkour
-						<span class="text-primary">OKE</span>
-					</h1>
-					<div class="subheading mb-5">
-						25000 Khouribga Firdaws Maroc
-						<a href="mailto:machkour20.mo1@gmail.com">machkour20.mo1@gmail.com</a>
-					</div>
-					<p class="lead mb-5">
-						Je suis MACHKOUR OKE élève en informatique et ingénierie de données à l'ENSA de Khouribga
-					<div class="social-icons">
-						<a class="social-icon" href="https://www.linkedin.com/in/machkour-oke-b365161ba/"><i
-								class="fab fa-linkedin-in"></i></a>
-						<a class="social-icon" href="https://github.com/machkouroke"><i class="fab fa-github"></i></a>
-						<a class="social-icon" href="https://twitter.com/machkouroke"><i class="fab fa-twitter"></i></a>
-						<a class="social-icon" href="https://www.facebook.com/machkour.oke/"><i
-								class="fab fa-facebook-f"></i></a>
-					</div>
-				</div>
-			</section>
-			<hr class="m-0"/>
-			
-			<hr class="m-0"/>
-			<!-- Projet-->
-			<section class="resume-section" id="project">
-				<div class="resume-section-content">
-					<h2 class="mb-5">Projet</h2>
-					<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 py-5 projects">
-						<a class="col project" href="https://github.com/machkouroke/LOPStudents">
-							<div class="card"><img
-									alt="" class="card-img d-block"
-									src="assets/img/project/LOPStudents.png"/></div>
-							<p><b>LOPStudents</b><br> Plateforme de gestion d'étudiant</p>
-						</a>
-						<a class="col project" href="https://github.com/machkouroke/LOPCopy">
-							<div class="card rounded-3 shadow"><img alt=""
-							                                        class="card-img d-block"
-							                                        src="assets/img/project/LOPCopy.png"/>
-							
-							</div>
-							<p class="text-center"><b>LOPCopy</b><br> Application d'organisation de fichier</p>
-						</a>
-						<a class="col project" href="https://github.com/machkouroke/LOPGraphe">
-							<div class="card rounded-3 shadow"><img alt="" class="card-img  d-block"
-							                                        src="assets/img/project/LOPGraph.png"/></div>
-							<p class="text-center"><b>LOPGraph</b><br> Générateur d'arbre couvrant minimal et de
-							                                           labyrinthe</p>
-						</a>
-						<a class="col project" href="https://github.com/machkouroke/LOPReservation.git">
-							<div class="card rounded-3 shadow"><img alt="" class="card-img d-block"
-							                                        src="assets/img/project/LOPReservation.png"/></div>
-							<p class="text-center"><b>LOPReservation</b><br> Application de gestion des réservations
-							                                                 de salle d'une école</p>
-						</a>
-						<a class="col project" href="https://github.com/machkouroke/LOPBlockChain">
-							<div class="card rounded-3 shadow"><img alt="" class="card-img  d-block"
-							                                        src="assets/img/project/blockchain.png"/></div>
-							<p class="text-center"><b>LOPBlockchain</b><br> Simulateur de Blockchain</p>
-						</a>
-						<a class="col project" href="https://github.com/machkouroke/Wordle_Solver">
-							<div class="card rounded-3 shadow"><img alt="" class="card-img  d-block"
-							                                        src="assets/img/project/Wordle.png"/></div>
-							<p class="text-center"><b>Wordle Solver</b><br> Script résolvant le jeu Wordle</p>
-						</a>
-					</div>
-				</div>
-			</section>
-			<hr class="m-0"/>
-			
 		
-		</div>
-		<!-- Bootstrap core JS-->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-		<!-- Core theme JS-->
-		<script src="js/scripts.js"></script>
+		<!-- ABOUT -->
+		<section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+						<div class="about-text">
+							<small class="small-text">Bienvenue sur
+								<span class="mobile-block">mon portfolio </span></small>
+							<h1 class="animated animated-text">
+								<span class="mr-2">Hello world, Je suis</span>
+								<div class="animated-info">
+									<span class="animated-item">Machkour Oke</span>
+									<span class="animated-item">Data Engineer </span>
+									<span class="animated-item">Student</span>
+								</div>
+							</h1>
+							
+							<p>La création d'un produit à succès est un challenge. Moi je suis actif dans le domaine
+							   de la data science et du web Développement
+							</p>
+							
+							<div class="custom-btn-group mt-4">
+								<a href="#" class="btn  mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Voir mon
+								                                                                            Cv</a>
+								<a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contacte moi</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-5 col-md-12 col-12">
+						<div class="about-image svg">
+							<img src="images/undraw/profile-pic.png" class="img-fluid"
+							     alt="svg image">
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</section>
+		
+		<!-- PROJECTS -->
+		<section class="project py-5" id="project">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-lg-11 text-center mx-auto col-12">
+						
+						<div class="col-lg-8 mx-auto">
+							<h2>Quelque projets réalisé par moi</h2>
+						</div>
+						
+						<div class="row pt-5">
+							<a class="col-12 col-sm project" href="https://github.com/machkouroke/LOPStudents">
+								<img
+										alt="" class="card-img d-block"
+										src="images/project/LOPStudents.png"/>
+								<p><b>LOPStudents</b><br> Plateforme de gestion d'étudiant</p>
+							</a>
+							<a class="col-12 col-sm project" href="https://github.com/machkouroke/LOPCopy">
+								<img alt=""
+								     class="card-img d-block"
+								     src="images/project/LOPCopy.png"/>
+								
+								
+								<p class="text-center"><b>LOPCopy</b><br> Application d'organisation de fichier</p>
+							</a>
+							<a class="col-12 col-sm project" href="https://github.com/machkouroke/LOPGraphe">
+								<img alt="" class="card-img  d-block"
+								     src="images/project/LOPGraph.png"/>
+								<p class="text-center"><b>LOPGraph</b><br> Générateur d'arbre couvrant minimal et de
+								                                           labyrinthe</p>
+							</a>
+						
+						</div>
+						<div class="row">
+							<a class="col-12 col-sm project"
+							   href="https://github.com/machkouroke/LOPReservation.git">
+								<img alt="" class="card-img d-block" src="images/project/LOPReservation.png"/>
+								<p class="text-center"><b>LOPReservation</b><br> Application de gestion des réservations
+								                                                 de salle d'une école</p>
+							</a>
+							<a class="col-12 col-sm project" href="https://github.com/machkouroke/LOPBlockChain">
+								<img alt="" class="card-img  d-block"
+								     src="images/project/blockchain.png"/>
+								<p class="text-center"><b>LOPBlockchain</b><br> Simulateur de Blockchain</p>
+							</a>
+							<a class="col-12 col-sm project" href="https://github.com/machkouroke/Wordle_Solver">
+								<img alt="" class="card-img  d-block"
+								     src="images/project/Wordle.png"/>
+								<p class="text-center"><b>Wordle Solver</b><br> Script résolvant le jeu Wordle</p>
+							</a>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- CONTACT -->
+		<section class="contact py-5" id="contact">
+			<div class="container">
+				<h2 class="mb-4 text-center">N'hésitez pas à me contacter</h2>
+				
+				<div class="row d-flex align-items-center">
+					
+					<div class="col-lg-5 mr-lg-5 col-12 ">
+						<div
+								class="contact-info rounded d-flex justify-content-between align-items-center py-4 px-lg-5">
+							<div class="contact-info-item">
+								<h3 class="mb-3 text-white">Contact</h3>
+								<p class="footer-text mb-0">+212638864661</p>
+								<p><a href="mailto:machkour20.mo1@gmail.com">machkour20.mo1@gmail.com</a></p>
+							</div>
+							
+							<ul class="social-links">
+								<li><a href="#" class="uil uil-linkedin" data-toggle="tooltip" data-placement="left"
+								       title="Linkedin"></a></li>
+								<li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left"
+								       title="Instagram"></a></li>
+								<li><a href="#" class="uil  uil-github" data-toggle="tooltip" data-placement="left"
+								       title="Github"></a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-lg-6 col-12">
+						<div class="contact-form">
+							
+							<div class='col d-none d-md-block d-flex align-items-center' style='text-align: center;'>
+								<img data-aos='fade-left' data-aos-once='true'
+								     src="images/undraw/sendMessage.svg"
+								     style='width: 90%;height: 90%;padding: 37px;' alt=''>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</section>
+		
+		
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/Headroom.js"></script>
+		<script src="js/jQuery.headroom.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/smoothscroll.js"></script>
+		<script src="js/custom.js"></script>
+	
 	</body>
 </html>
