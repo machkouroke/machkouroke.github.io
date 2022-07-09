@@ -2,11 +2,22 @@
 
   "use strict";
 
-    // COLOR MODE
-    $('.color-mode').click(function(){
+    function switchTheme() {
+        const body = $('body')
         $('.color-mode-icon').toggleClass('active')
-        $('body').toggleClass('dark-mode')
+        body.toggleClass('dark-mode')
+        const actualTheme = body.hasClass('dark-mode') ? 'Clair' : 'Sombre'
+
+    }
+    // COLOR MODE
+    const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (isDark) {
+        switchTheme()
+    }
+    $('.color-mode').click(function(){
+        switchTheme()
     })
+
 
     // HEADER
     $(".navbar").headroom();
