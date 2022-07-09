@@ -462,6 +462,10 @@ b, strong {
   border-radius: 1rem !important;
 }
 
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
 .project a {
   transition: transform 0.8s;
 }
@@ -470,7 +474,6 @@ b, strong {
 }
 .project img {
   height: 230px;
-  border: 1px solid #c9d1f9;
 }
 
 @media (min-width: 1270px) {
